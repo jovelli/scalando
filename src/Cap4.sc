@@ -1,9 +1,8 @@
 
 
 object Cap4 {
-  println("fdsa")                                 //> fdsa
-  
-  val fotos = Media("fotos")                      //> fotos  : Media = Media@7f63425a
+
+  val fotos = Media("fotos")                      //> fotos  : Media = Media@f2a0b8e
   val videos = Media("videos")                    //> videos  : Media = Media@36d64342
   val all = Media("all")                          //> all  : Media = Media@39ba5a14
   
