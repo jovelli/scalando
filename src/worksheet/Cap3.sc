@@ -1,7 +1,5 @@
-object Cap3 { // (api: String) {
-  
- // def this() = this("")
-  
+object Cap3 {
+
   val apiKey = "39a23013cc824cb38fa55abc3ef80b9f" //> apiKey  : String = 39a23013cc824cb38fa55abc3ef80b9f
   
 	def buscaFotos(tag: String) = ???         //> buscaFotos: (tag: String)Nothing
