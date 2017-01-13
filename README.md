@@ -1,4 +1,4 @@
-# scalando
+# Scalando
 
 Esses são códigos relacionados ao livro Scala: escalando sua produtividade.
 
