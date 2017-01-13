@@ -7,7 +7,7 @@ object Cap6 {
 	val fotos = Set("Primeira", "Segunda", "Terceira", "Quarta", "Quinta", "Sexta")
                                                   //> fotos  : scala.collection.immutable.Set[String] = Set(Quarta, Quinta, Sexta,
                                                   //|  Primeira, Terceira, Segunda)
-  fotos.foreach(imprimeFoto);                     //> Quarta
+  fotos.foreach(imprimeFoto)                      //> Quarta
                                                   //| Quinta
                                                   //| Sexta
                                                   //| Primeira
