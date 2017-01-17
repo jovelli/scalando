@@ -1,3 +1,9 @@
+
+/** FlickrClient
+* Object utilizado para carregar fotos do Flickr a partir de tags passadas
+* 
+*/
+
 package com.jovelli.flickr.client
 
 object FlickrClient extends App {

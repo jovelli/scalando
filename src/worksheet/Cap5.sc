@@ -1,3 +1,10 @@
+
+/** Cap5
+* Esse capitulo explica o uso de try catch com match pattern para catch.
+* Explica o uso de algumas definicoes de Predef como ???
+*
+*/
+
 package worksheet
 
 import java.io.IOException

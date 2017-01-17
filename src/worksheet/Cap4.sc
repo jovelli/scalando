@@ -1,22 +1,28 @@
 
+/** Cap4
+* Esse capítulo explica o uso de case objects.
+* Mostra mais exemplos do funcionamento de match pattern.
+*
+*/
+
 import com.jovelli.scalando.Media
 
 object Cap4 {
 
-  val fotos = Media("fotos")                      //> fotos  : <error> = com.jovelli.scalando.Media@f2a0b8e
-  val videos = Media("videos")                    //> videos  : <error> = com.jovelli.scalando.Media@36d64342
-  val all = Media("all")                          //> all  : <error> = com.jovelli.scalando.Media@39ba5a14
+  val fotos = Media("fotos")
+  val videos = Media("videos")
+  val all = Media("all")
    
-  println(FotosCap4)                              //> FotosCap4
+  println(FotosCap4)
    
-  val media: Any = VideosCap4                     //> media  : Any = VideosCap4
+  val media: Any = VideosCap4
   
   val texto = media match {
   	case FotosCap4 => "Processando fotos"
   	case VideosCap4 => "Processando videos"
   	case AllCap4 => "Processando todos"
   	case _ => -1
-  }                                               //> texto  : Any = Processando videos
+  }
   
 }
 

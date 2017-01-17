@@ -1,26 +1,31 @@
-object Cap3 {
 
-  val apiKey = "39a23013cc824cb38fa55abc3ef80b9f" //> apiKey  : String = 39a23013cc824cb38fa55abc3ef80b9f
+/** Cap3
+* Esse capítulo explica o uso de Option, match pattern.
+* Uso de classes abstratas e herança.
+*
+*/
+
+object Cap3 {
+	
+  val apiKey = "39a23013cc824cb38fa55abc3ef80b9f"
   
-	def buscaFotos(tag: String) = ???         //> buscaFotos: (tag: String)Nothing
+	def buscaFotos(tag: String) = ???
 	
 	val usuarioOpt: Option[String] = Option("User")
-                                                  //> usuarioOpt  : Option[String] = Some(User)
 	
 	def usuarioAtual = usuarioOpt match {
 		case Some(user) => user
 		case None => "anon"
 		case _ => "aaaaa"
-	}                                         //> usuarioAtual: => String
+	}
 	
-	val a = usuarioAtual                      //> a  : String = User
+	val a = usuarioAtual
 	
 	val flickr = new FlickrCaller("NovoFlickr")
-                                                  //> flickr  : FlickrCaller = FlickrCaller@3d24753a
-  println(flickr.novo)                            //> NovoFlickr
-  println(flickr.expr)                            //> bbbb
+  println(flickr.novo)
+  println(flickr.expr)
   
-  flickr.getValor(id=10)                          //> res0: String = AAA10
+  flickr.getValor(id=10)
  
  	print(FotosCap3)
 }
