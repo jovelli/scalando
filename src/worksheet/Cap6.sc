@@ -71,6 +71,12 @@ object Cap6 {
   
   //Arrays
   val array = Array(1, 2, 3, 4)                   //> array  : Array[Int] = Array(1, 2, 3, 4)
-  
   array(1)                                        //> res2: Int = 2
+  
+  
+  //Expressao regular para obfuscar email com ***
+  val test = "meuemail@gmail.com".replaceAll("(^.{1,3})(.*)(@.*)", "$1***$3")
+                                                  //> test  : String = meu***@gmail.com
+  
+  
 }
