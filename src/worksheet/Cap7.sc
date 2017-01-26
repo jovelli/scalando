@@ -1,5 +1,7 @@
 package worksheet
 
+import com.jovelli.scalando.Media
+
 object Cap7 {
   
   //Uso de diferentes funcoes sobre lista de numeros
@@ -27,10 +29,20 @@ object Cap7 {
                                                   //| <li>5</li>
 
 	//Reduce e fold
-	//Reduce posso trabalhar com numericos, fold com os outros tipos
-	val numeros = List(1, 2, 3, 4, 5)         //> numeros  : List[Int] = List(1, 2, 3, 4, 5)
+	//reduceLeft para comecar pega os dois primeiros itens da lista
+	//foldLeft para comecar pega o item passado como argumento e o primeiro item da lista
+	val numeros = List[Int](1, 2, 3, 4, 5)    //> numeros  : List[Int] = List(1, 2, 3, 4, 5)
   val soma = numeros.reduceLeft((acc, numero) => acc + numero)
                                                   //> soma  : Int = 15
                                                   
+  val numerosStr = List[String]("1", "2", "3", "4", "5")
+                                                  //> numerosStr  : List[String] = List(1, 2, 3, 4, 5)
+  
+  numerosStr.reduceLeft((a, b) => a + b)          //> res3: String = 12345
+                                                  
+  val listaStr = List[String]("A", "B", "C", "D", "E")
+                                                  //> listaStr  : List[String] = List(A, B, C, D, E)
+  
+  listaStr.foldLeft("")((s1, s2) => s1 + s2)      //> res4: String = ABCDE
   
 }
