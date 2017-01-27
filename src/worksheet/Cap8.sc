@@ -41,4 +41,6 @@ object Cap8 {
 	printListMedias(lstVideos)                //> VideoCap7(1,PrimeiroVideo)
                                                   //| VideoCap7(2,SegundoVideo)
                                                   //| VideoCap7(3,TerceiroVideo)
+                                                  
+
 }
