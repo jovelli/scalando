@@ -19,8 +19,11 @@ object Cap7 {
   lista.sortWith((x, y) => x > y)                 //> res1: List[Int] = List(5, 4, 3, 2, 1, 0)
   
   lista.find(_ == 3).getOrElse(Option(4))         //> res2: Any = 3
-                                                    
-	lista.map("<li>" + _ + "</li>").foreach(println)
+                                    	
+  val xmlLi: scala.xml.Elem = <li>valorDentroLi</li>
+                                                  //> xmlLi  : scala.xml.Elem = <li>valorDentroLi</li>
+                                    	                
+	lista.map(valor => <li>{valor}</li>).foreach(println)
                                                   //> <li>0</li>
                                                   //| <li>1</li>
                                                   //| <li>2</li>
