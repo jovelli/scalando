@@ -1,9 +1,7 @@
-
 /** FlickrClient
 * Object utilizado para carregar fotos do Flickr a partir de tags passadas
 * 
 */
-
 package com.jovelli.flickr.client
 
 object FlickrClient extends App {
@@ -12,5 +10,5 @@ object FlickrClient extends App {
 	val tags = "scala"
 	val url = s"https://api.flickr.com/services/rest/?method=$method&api_key=$apiKey&tags=$tags"
 
-	scala.io.Source.fromURL(url).getLines().foreach(println)
+	scala.io.Source.fromURL(url).getLines().foreach(println)	
 }

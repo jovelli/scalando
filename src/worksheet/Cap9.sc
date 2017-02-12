@@ -33,5 +33,5 @@ object Cap9 {
 		l <- lista
 		item <- mapa.get(l)
 	} yield item                              //> res0: List[String] = List(First, Second, Third, Fourth, Fifth, Sixth)
-  
+ 
 }
