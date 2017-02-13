@@ -1,9 +1,7 @@
-
 /** FlickrClient
 * Object utilizado para carregar fotos do Flickr a partir de tags passadas
 * 
 */
-
 package com.jovelli.flickr.client
 
 import com.typesafe.config.Config
