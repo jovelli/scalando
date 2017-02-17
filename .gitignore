@@ -6,3 +6,5 @@
 .worksheet
 *.settings
 *.class
+*.secret
+*.cache
