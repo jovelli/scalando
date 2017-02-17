@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rsp stat="ok">
+	<photos page="1" pages="704" perpage="100" total="70394">
+		<photo id="32103715813" owner="37902992@N06" secret="af84c159c6" server="2778" farm="3" title="Mont Cenis, Le Court" ispublic="1" isfriend="0" isfamily="0"/>
+		<photo id="32877907036" owner="37902992@N06" secret="2ccb8496d6" server="3940" farm="4" title="Mont Cenis, Le Court" ispublic="1" isfriend="0" isfamily="0"/>
+		<photo id="32764929012" owner="37902992@N06" secret="1039a2e7df" server="3669" farm="4" title="Mont Cenis, Le Court" ispublic="1" isfriend="0" isfamily="0"/>
+		<photo id="32075545564" owner="37902992@N06" secret="24ef4085fb" server="602" farm="1" title="Mont Cenis, Le Court" ispublic="1" isfriend="0" isfamily="0"/>
+		<photo id="32877847226" owner="37902992@N06" secret="4aae95e037" server="647" farm="1" title="Mont Cenis, Le Court" ispublic="1" isfriend="0" isfamily="0"/>
+		<photo id="32877826926" owner="37902992@N06" secret="7670274425" server="681" farm="1" title="Mont Cenis, Grand Croix" ispublic="1" isfriend="0" isfamily="0"/>
+		<photo id="32103594823" owner="37902992@N06" secret="1c2f8ce749" server="2203" farm="3" title="Mont Cenis, Alpe Tour" ispublic="1" isfriend="0" isfamily="0"/>
+		<photo id="32794723211" owner="35513418@N04" secret="f89ae19723" server="744" farm="1" title="The first snow (January 2017)" ispublic="1" isfriend="0" isfamily="0"/>
+		<photo id="32073147014" owner="11293286@N08" secret="8628197f14" server="3806" farm="4" title="Blue Day" ispublic="1" isfriend="0" isfamily="0"/>
+		<photo id="32532455460" owner="60399499@N06" secret="f0a177ef6f" server="2095" farm="3" title="blue shoes" ispublic="1" isfriend="0" isfamily="0"/>
+		<photo id="32861835816" owner="28929465@N08" secret="327b2e3a0f" server="2157" farm="3" title="Anag022017_48" ispublic="1" isfriend="0" isfamily="0"/>
+		<photo id="32859451946" owner="147049668@N03" secret="f8d53b1832" server="2468" farm="3" title="DSC_0060" ispublic="1" isfriend="0" isfamily="0"/>
+		<photo id="32056205684" owner="126508109@N02" secret="9dba8ecc2d" server="532" farm="1" title="punto di fuga - vanishing point" ispublic="1" isfriend="0" isfamily="0"/>
+		<photo id="32513515380" owner="25792071@N02" secret="7f80aae806" server="596" farm="1" title="la fantasia non ha padroni... nè servi... ( s.m. )" ispublic="1" isfriend="0" isfamily="0"/>
+		<photo id="32820463716" owner="24271543@N03" secret="455838050f" server="2806" farm="3" title="Arjuzanx, Landes" ispublic="1" isfriend="0" isfamily="0"/>
+		<photo id="32727897131" owner="38994684@N08" secret="bb4e71cd61" server="2166" farm="3" title=".064" ispublic="1" isfriend="0" isfamily="0"/>
+		<photo id="32696668242" owner="38994684@N08" secret="bc5f2c42a0" server="2651" farm="3" title=".064" ispublic="1" isfriend="0" isfamily="0"/>
+		<photo id="32000953524" owner="128691640@N04" secret="ce5d34a8e7" server="3944" farm="4" title="G272 XLW" ispublic="1" isfriend="0" isfamily="0"/>
+		<photo id="32699297341" owner="49465710@N03" secret="44d1389f38" server="714" farm="1" title="la scala" ispublic="1" isfriend="0" isfamily="0"/>
+	</photos>
+</rsp>
