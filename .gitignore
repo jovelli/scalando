@@ -8,3 +8,4 @@
 *.class
 *.secret
 *.cache
+*.cache-tests
