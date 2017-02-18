@@ -11,7 +11,7 @@ class FlickrClient(apiKey: String, baseURL: String, httpClient: HttpClient, resp
   
   import FlickrClient._
   
-  def buscaFotos(tags: List[String]): Either[ClientError, Seq[Foto]] = {
+  def buscarFotos(tags: List[String]): Either[ClientError, Seq[Foto]] = {
     val url = s"$baseURL?method=flickr.photos.search&api_key=$apiKey&tags=${tags.mkString(",")}"
     
     val response = httpClient.get(url)
